@@ -1,6 +1,11 @@
 package Repository;
 
-
 import Model.Emoji;
+import org.springframework.stereotype.Repository;
 
-public interface EmojiRepository {}
+/**
+ *
+ */
+@Repository
+public interface EmojiRepository extends  CrudRepository<Emoji, Long> {
+}
