@@ -1,4 +1,4 @@
 package Model;
 
-public class Emoji {
-}
+public class Emoji {}
+

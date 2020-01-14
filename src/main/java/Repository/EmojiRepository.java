@@ -1,4 +1,6 @@
 package Repository;
 
-public interface EmojiRepository {
-}
+
+import Model.Emoji;
+
+public interface EmojiRepository {}
